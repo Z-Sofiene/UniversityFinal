@@ -6,7 +6,7 @@ using School.Models.Repositories;
 
 namespace School.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Manager")]
     public class UniversityController : Controller
     {
         private readonly IUniversityRepository UniversityRepository;

@@ -7,7 +7,7 @@ using School.Models.Repositories;
 
 namespace School.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Manager")]
     public class StudentController : Controller
     {
         private readonly IStudentRepository StudentRepository;
@@ -20,7 +20,7 @@ namespace School.Controllers
             this.UniversityRepository = UniversityRepository;
             HostingEnvironment = hostingEnvironment;
         }
-
+        [AllowAnonymous]
         // GET: Student
         public ActionResult Index(int? universityID)
         {
