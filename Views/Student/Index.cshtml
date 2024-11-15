@@ -1,0 +1,119 @@
+﻿@model School.Models.StudentListViewModel
+
+@{
+    ViewData["Title"] = "Student List";
+}
+
+<!-- Breadcrumb Navigation -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "University")">University</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Student List</li>
+    </ol>
+</nav>
+
+<!-- Page Content -->
+<div class="container py-4">
+    <h1 class="mb-4 text-center">
+        <i class="fa-solid fa-users me-2"></i>Student List
+    </h1>
+
+    <!-- Action and Search Bar -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <a asp-action="Create" class="btn btn-success" data-bs-toggle="tooltip" title="Create a new student">
+                <i class="fa-solid fa-plus me-2"></i>Create New Student
+            </a>
+        </div>
+        <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Student" method="get">
+            <div class="form-group">
+                <label asp-for="UniversityID" class="control-label font-weight-bold"></label>
+                <select asp-for="UniversityID" class="form-control" asp-items="ViewBag.UniversityID">
+                    <option value="">Select a University</option>
+                </select>
+                <span asp-validation-for="UniversityID" class="text-danger"></span>
+            </div>
+
+            <!-- New Name input field -->
+            <div class="form-group ml-2">
+                <input type="search" name="name" class="form-control" placeholder="Enter Name" size="30" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+    </div>
+    
+
+    <!-- Student Table -->
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().StudentName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().Age)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().BirthDate)
+                </th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model.Students)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => student.StudentName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => student.Age)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => student.BirthDate)
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@student.StudentId" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit student details">
+                            <i class="fa-solid fa-pen"></i> Edit
+                        </a>
+                        <a asp-action="Details" asp-route-id="@student.StudentId" class="btn btn-info btn-sm" data-bs-toggle="tooltip" title="View student details">
+                            <i class="fa-solid fa-eye"></i> Details
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@student.StudentId" class="btn btn-danger btn-sm" data-bs-toggle="tooltip" title="Delete student">
+                            <i class="fa-solid fa-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        // Tooltip Initialization
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+
+        // Real-Time Search Functionality
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var searchValue = document.getElementById('searchInput').value.toLowerCase();
+            var rows = document.querySelectorAll('table tbody tr');
+            rows.forEach(function (row) {
+                var studentName = row.querySelector('td:first-child').innerText.toLowerCase();
+                if (studentName.includes(searchValue)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+    </script>
+}
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

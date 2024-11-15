@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\wwwroot\\js\\customscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:wwwroot\\js\\customscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\viewmodels\\editroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:viewmodels\\editroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\viewmodels\\createroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:viewmodels\\createroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRoleViewModel.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserRoleViewModel.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\UserRoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T18:39:22.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T18:37:51.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomScript.js",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\wwwroot\\js\\CustomScript.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\CustomScript.js",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\wwwroot\\js\\CustomScript.js",
+              "RelativeToolTip": "wwwroot\\js\\CustomScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-15T18:35:48.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteRole.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Admin\\DeleteRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\DeleteRole.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Admin\\DeleteRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\DeleteRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T18:33:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T17:25:25.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAUwHcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:49:26.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditRoleViewModel.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\EditRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EditRoleViewModel.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\EditRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EditRoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:00:50.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateRoleViewModel.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\CreateRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CreateRoleViewModel.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\CreateRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CreateRoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:44:30.485Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
